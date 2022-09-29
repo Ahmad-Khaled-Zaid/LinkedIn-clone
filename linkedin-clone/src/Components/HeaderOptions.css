@@ -1,0 +1,19 @@
+.header__right > .header__option__section {
+  display: flex;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+}
+.header__option:hover{
+    color: black;
+    cursor: pointer;
+}
+.header__option__icon{
+  height: 100px ;
+  width: 40px ;
+}
